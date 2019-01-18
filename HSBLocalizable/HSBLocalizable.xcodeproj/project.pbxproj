@@ -1,0 +1,723 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9A0B7D2D21F1AAFE00F795EF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A0B7D2C21F1AAFE00F795EF /* AppDelegate.swift */; };
+		9A0B7D2F21F1AAFE00F795EF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A0B7D2E21F1AAFE00F795EF /* ViewController.swift */; };
+		9A0B7D3121F1AAFF00F795EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A0B7D3021F1AAFF00F795EF /* Assets.xcassets */; };
+		9A0B7D3421F1AAFF00F795EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A0B7D3221F1AAFF00F795EF /* Main.storyboard */; };
+		9A0B7D9C21F1AB1000F795EF /* main11.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9A0B7D4021F1AB1000F795EF /* main11.cpp */; };
+		9A0B7D9D21F1AB1000F795EF /* XlsReader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9A0B7D4221F1AB1000F795EF /* XlsReader.cpp */; };
+		9A0B7D9E21F1AB1000F795EF /* DHxlsReaderIOS.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A0B7D4D21F1AB1000F795EF /* DHxlsReaderIOS.m */; };
+		9A0B7D9F21F1AB1000F795EF /* DHcell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A0B7D5121F1AB1000F795EF /* DHcell.m */; };
+		9A0B7DA021F1AB1000F795EF /* xls.c in Sources */ = {isa = PBXBuildFile; fileRef = 9A0B7D5421F1AB1000F795EF /* xls.c */; };
+		9A0B7DA121F1AB1000F795EF /* xlstool.c in Sources */ = {isa = PBXBuildFile; fileRef = 9A0B7D5521F1AB1000F795EF /* xlstool.c */; };
+		9A0B7DA221F1AB1000F795EF /* ole.c in Sources */ = {isa = PBXBuildFile; fileRef = 9A0B7D5621F1AB1000F795EF /* ole.c */; };
+		9A0B7DA321F1AB1000F795EF /* xls2csv.c in Sources */ = {isa = PBXBuildFile; fileRef = 9A0B7D5721F1AB1000F795EF /* xls2csv.c */; };
+		9A0B7DA421F1AB1000F795EF /* getopt.c in Sources */ = {isa = PBXBuildFile; fileRef = 9A0B7D5821F1AB1000F795EF /* getopt.c */; };
+		9A0B7DA521F1AB1000F795EF /* LAWExcelTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A0B7D5921F1AB1000F795EF /* LAWExcelTool.m */; };
+		9A0B7DA621F1AB1000F795EF /* ZXLSXParsers注解.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A0B7D5B21F1AB1000F795EF /* ZXLSXParsers注解.m */; };
+		9A0B7DA721F1AB1000F795EF /* ZSheetParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A0B7D5F21F1AB1000F795EF /* ZSheetParser.m */; };
+		9A0B7DA821F1AB1000F795EF /* ZXLSXParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A0B7D6021F1AB1000F795EF /* ZXLSXParser.m */; };
+		9A0B7DA921F1AB1000F795EF /* ZSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A0B7D6321F1AB1000F795EF /* ZSheet.m */; };
+		9A0B7DAA21F1AB1000F795EF /* ZSheetCol.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A0B7D6621F1AB1000F795EF /* ZSheetCol.m */; };
+		9A0B7DAB21F1AB1000F795EF /* ZContent.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A0B7D6821F1AB1000F795EF /* ZContent.m */; };
+		9A0B7DAC21F1AB1000F795EF /* ZWorkbookParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A0B7D6B21F1AB1000F795EF /* ZWorkbookParser.m */; };
+		9A0B7DAD21F1AB1000F795EF /* ZBaseParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A0B7D6C21F1AB1000F795EF /* ZBaseParser.m */; };
+		9A0B7DAE21F1AB1000F795EF /* ZContentParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A0B7D6F21F1AB1000F795EF /* ZContentParser.m */; };
+		9A0B7DAF21F1AB1000F795EF /* unzip.c in Sources */ = {isa = PBXBuildFile; fileRef = 9A0B7D7221F1AB1000F795EF /* unzip.c */; };
+		9A0B7DB021F1AB1000F795EF /* zip.c in Sources */ = {isa = PBXBuildFile; fileRef = 9A0B7D7321F1AB1000F795EF /* zip.c */; };
+		9A0B7DB121F1AB1000F795EF /* ioapi.c in Sources */ = {isa = PBXBuildFile; fileRef = 9A0B7D7421F1AB1000F795EF /* ioapi.c */; };
+		9A0B7DB221F1AB1100F795EF /* mztools.c in Sources */ = {isa = PBXBuildFile; fileRef = 9A0B7D7521F1AB1000F795EF /* mztools.c */; };
+		9A0B7DB321F1AB1100F795EF /* SSZipArchive.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A0B7D7D21F1AB1000F795EF /* SSZipArchive.m */; };
+		9A0B7DB421F1AB1100F795EF /* aeskey.c in Sources */ = {isa = PBXBuildFile; fileRef = 9A0B7D8021F1AB1000F795EF /* aeskey.c */; };
+		9A0B7DB521F1AB1100F795EF /* hmac.c in Sources */ = {isa = PBXBuildFile; fileRef = 9A0B7D8121F1AB1000F795EF /* hmac.c */; };
+		9A0B7DB621F1AB1100F795EF /* aescrypt.c in Sources */ = {isa = PBXBuildFile; fileRef = 9A0B7D8421F1AB1000F795EF /* aescrypt.c */; };
+		9A0B7DB721F1AB1100F795EF /* fileenc.c in Sources */ = {isa = PBXBuildFile; fileRef = 9A0B7D8521F1AB1000F795EF /* fileenc.c */; };
+		9A0B7DB821F1AB1100F795EF /* sha1.c in Sources */ = {isa = PBXBuildFile; fileRef = 9A0B7D8821F1AB1000F795EF /* sha1.c */; };
+		9A0B7DB921F1AB1100F795EF /* prng.c in Sources */ = {isa = PBXBuildFile; fileRef = 9A0B7D8D21F1AB1000F795EF /* prng.c */; };
+		9A0B7DBA21F1AB1100F795EF /* pwd2key.c in Sources */ = {isa = PBXBuildFile; fileRef = 9A0B7D8F21F1AB1000F795EF /* pwd2key.c */; };
+		9A0B7DBB21F1AB1100F795EF /* aestab.c in Sources */ = {isa = PBXBuildFile; fileRef = 9A0B7D9021F1AB1000F795EF /* aestab.c */; };
+		9A0B7DBC21F1AB1100F795EF /* entropy.c in Sources */ = {isa = PBXBuildFile; fileRef = 9A0B7D9321F1AB1000F795EF /* entropy.c */; };
+		9A0B7DBD21F1AB1100F795EF /* CHCSVParserOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A0B7D9521F1AB1000F795EF /* CHCSVParserOptions.swift */; };
+		9A0B7DBE21F1AB1100F795EF /* CHCSVParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A0B7D9721F1AB1000F795EF /* CHCSVParser.m */; };
+		9A0B7DBF21F1AB1100F795EF /* CSVParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A0B7D9B21F1AB1000F795EF /* CSVParser.m */; };
+		9A0B7DC221F1AB8000F795EF /* libiconv.2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A0B7DC121F1AB8000F795EF /* libiconv.2.tbd */; };
+		9A0B7DC421F1AB8800F795EF /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A0B7DC321F1AB8800F795EF /* libz.tbd */; };
+		9A0B7DD021F1ABAB00F795EF /* test.csv in Resources */ = {isa = PBXBuildFile; fileRef = 9A0B7DC921F1ABAA00F795EF /* test.csv */; };
+		9A0B7DD121F1ABAB00F795EF /* test3.xlsx in Resources */ = {isa = PBXBuildFile; fileRef = 9A0B7DCA21F1ABAB00F795EF /* test3.xlsx */; };
+		9A0B7DD221F1ABAB00F795EF /* test.xls in Resources */ = {isa = PBXBuildFile; fileRef = 9A0B7DCB21F1ABAB00F795EF /* test.xls */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9A0B7D2921F1AAFE00F795EF /* HSBLocalizable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HSBLocalizable.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A0B7D2C21F1AAFE00F795EF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9A0B7D2E21F1AAFE00F795EF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9A0B7D3021F1AAFF00F795EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9A0B7D3321F1AAFF00F795EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9A0B7D3521F1AAFF00F795EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A0B7D3621F1AAFF00F795EF /* HSBLocalizable.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HSBLocalizable.entitlements; sourceTree = "<group>"; };
+		9A0B7D4021F1AB1000F795EF /* main11.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main11.cpp; sourceTree = "<group>"; };
+		9A0B7D4121F1AB1000F795EF /* XlsReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XlsReader.h; sourceTree = "<group>"; };
+		9A0B7D4221F1AB1000F795EF /* XlsReader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = XlsReader.cpp; sourceTree = "<group>"; };
+		9A0B7D4321F1AB1000F795EF /* config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = config.h; sourceTree = "<group>"; };
+		9A0B7D4521F1AB1000F795EF /* xlstypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = xlstypes.h; sourceTree = "<group>"; };
+		9A0B7D4621F1AB1000F795EF /* xlsstruct.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = xlsstruct.h; sourceTree = "<group>"; };
+		9A0B7D4721F1AB1000F795EF /* brdb.c.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = brdb.c.h; sourceTree = "<group>"; };
+		9A0B7D4821F1AB1000F795EF /* xlstool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = xlstool.h; sourceTree = "<group>"; };
+		9A0B7D4921F1AB1000F795EF /* xls.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = xls.h; sourceTree = "<group>"; };
+		9A0B7D4A21F1AB1000F795EF /* ole.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ole.h; sourceTree = "<group>"; };
+		9A0B7D4B21F1AB1000F795EF /* brdb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = brdb.h; sourceTree = "<group>"; };
+		9A0B7D4D21F1AB1000F795EF /* DHxlsReaderIOS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHxlsReaderIOS.m; sourceTree = "<group>"; };
+		9A0B7D4E21F1AB1000F795EF /* DHxlsReaderIOS-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "DHxlsReaderIOS-Prefix.pch"; sourceTree = "<group>"; };
+		9A0B7D4F21F1AB1000F795EF /* DHcell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHcell.h; sourceTree = "<group>"; };
+		9A0B7D5021F1AB1000F795EF /* DHxlsReaderIOS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHxlsReaderIOS.h; sourceTree = "<group>"; };
+		9A0B7D5121F1AB1000F795EF /* DHcell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHcell.m; sourceTree = "<group>"; };
+		9A0B7D5221F1AB1000F795EF /* DHcell-Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "DHcell-Private.h"; sourceTree = "<group>"; };
+		9A0B7D5421F1AB1000F795EF /* xls.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = xls.c; sourceTree = "<group>"; };
+		9A0B7D5521F1AB1000F795EF /* xlstool.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = xlstool.c; sourceTree = "<group>"; };
+		9A0B7D5621F1AB1000F795EF /* ole.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ole.c; sourceTree = "<group>"; };
+		9A0B7D5721F1AB1000F795EF /* xls2csv.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = xls2csv.c; sourceTree = "<group>"; };
+		9A0B7D5821F1AB1000F795EF /* getopt.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = getopt.c; sourceTree = "<group>"; };
+		9A0B7D5921F1AB1000F795EF /* LAWExcelTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LAWExcelTool.m; sourceTree = "<group>"; };
+		9A0B7D5B21F1AB1000F795EF /* ZXLSXParsers注解.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ZXLSXParsers注解.m"; sourceTree = "<group>"; };
+		9A0B7D5D21F1AB1000F795EF /* ZBaseParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBaseParser.h; sourceTree = "<group>"; };
+		9A0B7D5E21F1AB1000F795EF /* ZWorkbookParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWorkbookParser.h; sourceTree = "<group>"; };
+		9A0B7D5F21F1AB1000F795EF /* ZSheetParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZSheetParser.m; sourceTree = "<group>"; };
+		9A0B7D6021F1AB1000F795EF /* ZXLSXParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXLSXParser.m; sourceTree = "<group>"; };
+		9A0B7D6121F1AB1000F795EF /* config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = config.h; sourceTree = "<group>"; };
+		9A0B7D6321F1AB1000F795EF /* ZSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZSheet.m; sourceTree = "<group>"; };
+		9A0B7D6421F1AB1000F795EF /* ZContent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZContent.h; sourceTree = "<group>"; };
+		9A0B7D6521F1AB1000F795EF /* ZSheetCol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZSheetCol.h; sourceTree = "<group>"; };
+		9A0B7D6621F1AB1000F795EF /* ZSheetCol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZSheetCol.m; sourceTree = "<group>"; };
+		9A0B7D6721F1AB1000F795EF /* ZPaserProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZPaserProtocol.h; sourceTree = "<group>"; };
+		9A0B7D6821F1AB1000F795EF /* ZContent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZContent.m; sourceTree = "<group>"; };
+		9A0B7D6921F1AB1000F795EF /* ZSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZSheet.h; sourceTree = "<group>"; };
+		9A0B7D6A21F1AB1000F795EF /* ZContentParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZContentParser.h; sourceTree = "<group>"; };
+		9A0B7D6B21F1AB1000F795EF /* ZWorkbookParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWorkbookParser.m; sourceTree = "<group>"; };
+		9A0B7D6C21F1AB1000F795EF /* ZBaseParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZBaseParser.m; sourceTree = "<group>"; };
+		9A0B7D6D21F1AB1000F795EF /* ZSheetParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZSheetParser.h; sourceTree = "<group>"; };
+		9A0B7D6E21F1AB1000F795EF /* ZXLSXParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXLSXParser.h; sourceTree = "<group>"; };
+		9A0B7D6F21F1AB1000F795EF /* ZContentParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZContentParser.m; sourceTree = "<group>"; };
+		9A0B7D7221F1AB1000F795EF /* unzip.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = unzip.c; sourceTree = "<group>"; };
+		9A0B7D7321F1AB1000F795EF /* zip.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = zip.c; sourceTree = "<group>"; };
+		9A0B7D7421F1AB1000F795EF /* ioapi.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ioapi.c; sourceTree = "<group>"; };
+		9A0B7D7521F1AB1000F795EF /* mztools.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mztools.c; sourceTree = "<group>"; };
+		9A0B7D7621F1AB1000F795EF /* crypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = crypt.h; sourceTree = "<group>"; };
+		9A0B7D7721F1AB1000F795EF /* zip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zip.h; sourceTree = "<group>"; };
+		9A0B7D7821F1AB1000F795EF /* unzip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = unzip.h; sourceTree = "<group>"; };
+		9A0B7D7921F1AB1000F795EF /* mztools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mztools.h; sourceTree = "<group>"; };
+		9A0B7D7A21F1AB1000F795EF /* ioapi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ioapi.h; sourceTree = "<group>"; };
+		9A0B7D7B21F1AB1000F795EF /* SSZipArchive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSZipArchive.h; sourceTree = "<group>"; };
+		9A0B7D7C21F1AB1000F795EF /* Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Common.h; sourceTree = "<group>"; };
+		9A0B7D7D21F1AB1000F795EF /* SSZipArchive.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSZipArchive.m; sourceTree = "<group>"; };
+		9A0B7D7F21F1AB1000F795EF /* prng.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = prng.h; sourceTree = "<group>"; };
+		9A0B7D8021F1AB1000F795EF /* aeskey.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = aeskey.c; sourceTree = "<group>"; };
+		9A0B7D8121F1AB1000F795EF /* hmac.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = hmac.c; sourceTree = "<group>"; };
+		9A0B7D8221F1AB1000F795EF /* aestab.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aestab.h; sourceTree = "<group>"; };
+		9A0B7D8321F1AB1000F795EF /* pwd2key.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pwd2key.h; sourceTree = "<group>"; };
+		9A0B7D8421F1AB1000F795EF /* aescrypt.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = aescrypt.c; sourceTree = "<group>"; };
+		9A0B7D8521F1AB1000F795EF /* fileenc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = fileenc.c; sourceTree = "<group>"; };
+		9A0B7D8621F1AB1000F795EF /* aesopt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aesopt.h; sourceTree = "<group>"; };
+		9A0B7D8721F1AB1000F795EF /* aes_via_ace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aes_via_ace.h; sourceTree = "<group>"; };
+		9A0B7D8821F1AB1000F795EF /* sha1.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sha1.c; sourceTree = "<group>"; };
+		9A0B7D8921F1AB1000F795EF /* brg_types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = brg_types.h; sourceTree = "<group>"; };
+		9A0B7D8A21F1AB1000F795EF /* entropy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = entropy.h; sourceTree = "<group>"; };
+		9A0B7D8B21F1AB1000F795EF /* hmac.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hmac.h; sourceTree = "<group>"; };
+		9A0B7D8C21F1AB1000F795EF /* brg_endian.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = brg_endian.h; sourceTree = "<group>"; };
+		9A0B7D8D21F1AB1000F795EF /* prng.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = prng.c; sourceTree = "<group>"; };
+		9A0B7D8E21F1AB1000F795EF /* aes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aes.h; sourceTree = "<group>"; };
+		9A0B7D8F21F1AB1000F795EF /* pwd2key.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = pwd2key.c; sourceTree = "<group>"; };
+		9A0B7D9021F1AB1000F795EF /* aestab.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = aestab.c; sourceTree = "<group>"; };
+		9A0B7D9121F1AB1000F795EF /* sha1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sha1.h; sourceTree = "<group>"; };
+		9A0B7D9221F1AB1000F795EF /* fileenc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fileenc.h; sourceTree = "<group>"; };
+		9A0B7D9321F1AB1000F795EF /* entropy.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = entropy.c; sourceTree = "<group>"; };
+		9A0B7D9521F1AB1000F795EF /* CHCSVParserOptions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CHCSVParserOptions.swift; sourceTree = "<group>"; };
+		9A0B7D9621F1AB1000F795EF /* CHCSVParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHCSVParser.h; sourceTree = "<group>"; };
+		9A0B7D9721F1AB1000F795EF /* CHCSVParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHCSVParser.m; sourceTree = "<group>"; };
+		9A0B7D9821F1AB1000F795EF /* LAWExcelTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LAWExcelTool.h; sourceTree = "<group>"; };
+		9A0B7D9A21F1AB1000F795EF /* CSVParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSVParser.h; sourceTree = "<group>"; };
+		9A0B7D9B21F1AB1000F795EF /* CSVParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSVParser.m; sourceTree = "<group>"; };
+		9A0B7DC121F1AB8000F795EF /* libiconv.2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.2.tbd; path = usr/lib/libiconv.2.tbd; sourceTree = SDKROOT; };
+		9A0B7DC321F1AB8800F795EF /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		9A0B7DC921F1ABAA00F795EF /* test.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = test.csv; sourceTree = "<group>"; };
+		9A0B7DCA21F1ABAB00F795EF /* test3.xlsx */ = {isa = PBXFileReference; lastKnownFileType = file; path = test3.xlsx; sourceTree = "<group>"; };
+		9A0B7DCB21F1ABAB00F795EF /* test.xls */ = {isa = PBXFileReference; lastKnownFileType = file; path = test.xls; sourceTree = "<group>"; };
+		9A0B7DD621F1ABF400F795EF /* HSBLocalizable_Briding_Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HSBLocalizable_Briding_Header.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9A0B7D2621F1AAFE00F795EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A0B7DC421F1AB8800F795EF /* libz.tbd in Frameworks */,
+				9A0B7DC221F1AB8000F795EF /* libiconv.2.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9A0B7D2021F1AAFE00F795EF = {
+			isa = PBXGroup;
+			children = (
+				9A0B7D2B21F1AAFE00F795EF /* HSBLocalizable */,
+				9A0B7D2A21F1AAFE00F795EF /* Products */,
+				9A0B7DC021F1AB8000F795EF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9A0B7D2A21F1AAFE00F795EF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9A0B7D2921F1AAFE00F795EF /* HSBLocalizable.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9A0B7D2B21F1AAFE00F795EF /* HSBLocalizable */ = {
+			isa = PBXGroup;
+			children = (
+				9A0B7D3C21F1AB1000F795EF /* ExcelParser */,
+				9A0B7D2C21F1AAFE00F795EF /* AppDelegate.swift */,
+				9A0B7D2E21F1AAFE00F795EF /* ViewController.swift */,
+				9A0B7DD621F1ABF400F795EF /* HSBLocalizable_Briding_Header.h */,
+				9A0B7DC921F1ABAA00F795EF /* test.csv */,
+				9A0B7DCB21F1ABAB00F795EF /* test.xls */,
+				9A0B7DCA21F1ABAB00F795EF /* test3.xlsx */,
+				9A0B7D3021F1AAFF00F795EF /* Assets.xcassets */,
+				9A0B7D3221F1AAFF00F795EF /* Main.storyboard */,
+				9A0B7D3521F1AAFF00F795EF /* Info.plist */,
+				9A0B7D3621F1AAFF00F795EF /* HSBLocalizable.entitlements */,
+			);
+			path = HSBLocalizable;
+			sourceTree = "<group>";
+		};
+		9A0B7D3C21F1AB1000F795EF /* ExcelParser */ = {
+			isa = PBXGroup;
+			children = (
+				9A0B7D3D21F1AB1000F795EF /* XLS */,
+				9A0B7D5A21F1AB1000F795EF /* XLSX */,
+				9A0B7D9921F1AB1000F795EF /* CSV */,
+				9A0B7D9421F1AB1000F795EF /* CHCSVParser */,
+				9A0B7D9821F1AB1000F795EF /* LAWExcelTool.h */,
+				9A0B7D5921F1AB1000F795EF /* LAWExcelTool.m */,
+			);
+			path = ExcelParser;
+			sourceTree = "<group>";
+		};
+		9A0B7D3D21F1AB1000F795EF /* XLS */ = {
+			isa = PBXGroup;
+			children = (
+				9A0B7D3E21F1AB1000F795EF /* DHxlsReader */,
+			);
+			path = XLS;
+			sourceTree = "<group>";
+		};
+		9A0B7D3E21F1AB1000F795EF /* DHxlsReader */ = {
+			isa = PBXGroup;
+			children = (
+				9A0B7D3F21F1AB1000F795EF /* cplusplus */,
+				9A0B7D4321F1AB1000F795EF /* config.h */,
+				9A0B7D4421F1AB1000F795EF /* libxls */,
+				9A0B7D4C21F1AB1000F795EF /* DHxlsReaderIOS */,
+				9A0B7D5321F1AB1000F795EF /* src */,
+			);
+			path = DHxlsReader;
+			sourceTree = "<group>";
+		};
+		9A0B7D3F21F1AB1000F795EF /* cplusplus */ = {
+			isa = PBXGroup;
+			children = (
+				9A0B7D4021F1AB1000F795EF /* main11.cpp */,
+				9A0B7D4121F1AB1000F795EF /* XlsReader.h */,
+				9A0B7D4221F1AB1000F795EF /* XlsReader.cpp */,
+			);
+			path = cplusplus;
+			sourceTree = "<group>";
+		};
+		9A0B7D4421F1AB1000F795EF /* libxls */ = {
+			isa = PBXGroup;
+			children = (
+				9A0B7D4521F1AB1000F795EF /* xlstypes.h */,
+				9A0B7D4621F1AB1000F795EF /* xlsstruct.h */,
+				9A0B7D4721F1AB1000F795EF /* brdb.c.h */,
+				9A0B7D4821F1AB1000F795EF /* xlstool.h */,
+				9A0B7D4921F1AB1000F795EF /* xls.h */,
+				9A0B7D4A21F1AB1000F795EF /* ole.h */,
+				9A0B7D4B21F1AB1000F795EF /* brdb.h */,
+			);
+			path = libxls;
+			sourceTree = "<group>";
+		};
+		9A0B7D4C21F1AB1000F795EF /* DHxlsReaderIOS */ = {
+			isa = PBXGroup;
+			children = (
+				9A0B7D4D21F1AB1000F795EF /* DHxlsReaderIOS.m */,
+				9A0B7D4E21F1AB1000F795EF /* DHxlsReaderIOS-Prefix.pch */,
+				9A0B7D4F21F1AB1000F795EF /* DHcell.h */,
+				9A0B7D5021F1AB1000F795EF /* DHxlsReaderIOS.h */,
+				9A0B7D5121F1AB1000F795EF /* DHcell.m */,
+				9A0B7D5221F1AB1000F795EF /* DHcell-Private.h */,
+			);
+			path = DHxlsReaderIOS;
+			sourceTree = "<group>";
+		};
+		9A0B7D5321F1AB1000F795EF /* src */ = {
+			isa = PBXGroup;
+			children = (
+				9A0B7D5421F1AB1000F795EF /* xls.c */,
+				9A0B7D5521F1AB1000F795EF /* xlstool.c */,
+				9A0B7D5621F1AB1000F795EF /* ole.c */,
+				9A0B7D5721F1AB1000F795EF /* xls2csv.c */,
+				9A0B7D5821F1AB1000F795EF /* getopt.c */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		9A0B7D5A21F1AB1000F795EF /* XLSX */ = {
+			isa = PBXGroup;
+			children = (
+				9A0B7D5B21F1AB1000F795EF /* ZXLSXParsers注解.m */,
+				9A0B7D5C21F1AB1000F795EF /* xmlParser */,
+				9A0B7D7021F1AB1000F795EF /* SSZipArchive */,
+			);
+			path = XLSX;
+			sourceTree = "<group>";
+		};
+		9A0B7D5C21F1AB1000F795EF /* xmlParser */ = {
+			isa = PBXGroup;
+			children = (
+				9A0B7D6121F1AB1000F795EF /* config.h */,
+				9A0B7D5D21F1AB1000F795EF /* ZBaseParser.h */,
+				9A0B7D6C21F1AB1000F795EF /* ZBaseParser.m */,
+				9A0B7D6D21F1AB1000F795EF /* ZSheetParser.h */,
+				9A0B7D5F21F1AB1000F795EF /* ZSheetParser.m */,
+				9A0B7D6A21F1AB1000F795EF /* ZContentParser.h */,
+				9A0B7D6F21F1AB1000F795EF /* ZContentParser.m */,
+				9A0B7D6E21F1AB1000F795EF /* ZXLSXParser.h */,
+				9A0B7D6021F1AB1000F795EF /* ZXLSXParser.m */,
+				9A0B7D5E21F1AB1000F795EF /* ZWorkbookParser.h */,
+				9A0B7D6B21F1AB1000F795EF /* ZWorkbookParser.m */,
+				9A0B7D6221F1AB1000F795EF /* models */,
+			);
+			path = xmlParser;
+			sourceTree = "<group>";
+		};
+		9A0B7D6221F1AB1000F795EF /* models */ = {
+			isa = PBXGroup;
+			children = (
+				9A0B7D6321F1AB1000F795EF /* ZSheet.m */,
+				9A0B7D6421F1AB1000F795EF /* ZContent.h */,
+				9A0B7D6521F1AB1000F795EF /* ZSheetCol.h */,
+				9A0B7D6621F1AB1000F795EF /* ZSheetCol.m */,
+				9A0B7D6721F1AB1000F795EF /* ZPaserProtocol.h */,
+				9A0B7D6821F1AB1000F795EF /* ZContent.m */,
+				9A0B7D6921F1AB1000F795EF /* ZSheet.h */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		9A0B7D7021F1AB1000F795EF /* SSZipArchive */ = {
+			isa = PBXGroup;
+			children = (
+				9A0B7D7121F1AB1000F795EF /* minizip */,
+				9A0B7D7B21F1AB1000F795EF /* SSZipArchive.h */,
+				9A0B7D7C21F1AB1000F795EF /* Common.h */,
+				9A0B7D7D21F1AB1000F795EF /* SSZipArchive.m */,
+				9A0B7D7E21F1AB1000F795EF /* aes */,
+			);
+			path = SSZipArchive;
+			sourceTree = "<group>";
+		};
+		9A0B7D7121F1AB1000F795EF /* minizip */ = {
+			isa = PBXGroup;
+			children = (
+				9A0B7D7221F1AB1000F795EF /* unzip.c */,
+				9A0B7D7321F1AB1000F795EF /* zip.c */,
+				9A0B7D7421F1AB1000F795EF /* ioapi.c */,
+				9A0B7D7521F1AB1000F795EF /* mztools.c */,
+				9A0B7D7621F1AB1000F795EF /* crypt.h */,
+				9A0B7D7721F1AB1000F795EF /* zip.h */,
+				9A0B7D7821F1AB1000F795EF /* unzip.h */,
+				9A0B7D7921F1AB1000F795EF /* mztools.h */,
+				9A0B7D7A21F1AB1000F795EF /* ioapi.h */,
+			);
+			path = minizip;
+			sourceTree = "<group>";
+		};
+		9A0B7D7E21F1AB1000F795EF /* aes */ = {
+			isa = PBXGroup;
+			children = (
+				9A0B7D7F21F1AB1000F795EF /* prng.h */,
+				9A0B7D8021F1AB1000F795EF /* aeskey.c */,
+				9A0B7D8121F1AB1000F795EF /* hmac.c */,
+				9A0B7D8221F1AB1000F795EF /* aestab.h */,
+				9A0B7D8321F1AB1000F795EF /* pwd2key.h */,
+				9A0B7D8421F1AB1000F795EF /* aescrypt.c */,
+				9A0B7D8521F1AB1000F795EF /* fileenc.c */,
+				9A0B7D8621F1AB1000F795EF /* aesopt.h */,
+				9A0B7D8721F1AB1000F795EF /* aes_via_ace.h */,
+				9A0B7D8821F1AB1000F795EF /* sha1.c */,
+				9A0B7D8921F1AB1000F795EF /* brg_types.h */,
+				9A0B7D8A21F1AB1000F795EF /* entropy.h */,
+				9A0B7D8B21F1AB1000F795EF /* hmac.h */,
+				9A0B7D8C21F1AB1000F795EF /* brg_endian.h */,
+				9A0B7D8D21F1AB1000F795EF /* prng.c */,
+				9A0B7D8E21F1AB1000F795EF /* aes.h */,
+				9A0B7D8F21F1AB1000F795EF /* pwd2key.c */,
+				9A0B7D9021F1AB1000F795EF /* aestab.c */,
+				9A0B7D9121F1AB1000F795EF /* sha1.h */,
+				9A0B7D9221F1AB1000F795EF /* fileenc.h */,
+				9A0B7D9321F1AB1000F795EF /* entropy.c */,
+			);
+			path = aes;
+			sourceTree = "<group>";
+		};
+		9A0B7D9421F1AB1000F795EF /* CHCSVParser */ = {
+			isa = PBXGroup;
+			children = (
+				9A0B7D9521F1AB1000F795EF /* CHCSVParserOptions.swift */,
+				9A0B7D9621F1AB1000F795EF /* CHCSVParser.h */,
+				9A0B7D9721F1AB1000F795EF /* CHCSVParser.m */,
+			);
+			path = CHCSVParser;
+			sourceTree = "<group>";
+		};
+		9A0B7D9921F1AB1000F795EF /* CSV */ = {
+			isa = PBXGroup;
+			children = (
+				9A0B7D9A21F1AB1000F795EF /* CSVParser.h */,
+				9A0B7D9B21F1AB1000F795EF /* CSVParser.m */,
+			);
+			path = CSV;
+			sourceTree = "<group>";
+		};
+		9A0B7DC021F1AB8000F795EF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9A0B7DC321F1AB8800F795EF /* libz.tbd */,
+				9A0B7DC121F1AB8000F795EF /* libiconv.2.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9A0B7D2821F1AAFE00F795EF /* HSBLocalizable */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A0B7D3921F1AAFF00F795EF /* Build configuration list for PBXNativeTarget "HSBLocalizable" */;
+			buildPhases = (
+				9A0B7D2521F1AAFE00F795EF /* Sources */,
+				9A0B7D2621F1AAFE00F795EF /* Frameworks */,
+				9A0B7D2721F1AAFE00F795EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HSBLocalizable;
+			productName = HSBLocalizable;
+			productReference = 9A0B7D2921F1AAFE00F795EF /* HSBLocalizable.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9A0B7D2121F1AAFE00F795EF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "小白兔";
+				TargetAttributes = {
+					9A0B7D2821F1AAFE00F795EF = {
+						CreatedOnToolsVersion = 10.1;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 9A0B7D2421F1AAFE00F795EF /* Build configuration list for PBXProject "HSBLocalizable" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9A0B7D2021F1AAFE00F795EF;
+			productRefGroup = 9A0B7D2A21F1AAFE00F795EF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9A0B7D2821F1AAFE00F795EF /* HSBLocalizable */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9A0B7D2721F1AAFE00F795EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A0B7D3121F1AAFF00F795EF /* Assets.xcassets in Resources */,
+				9A0B7DD121F1ABAB00F795EF /* test3.xlsx in Resources */,
+				9A0B7DD221F1ABAB00F795EF /* test.xls in Resources */,
+				9A0B7D3421F1AAFF00F795EF /* Main.storyboard in Resources */,
+				9A0B7DD021F1ABAB00F795EF /* test.csv in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9A0B7D2521F1AAFE00F795EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A0B7DA521F1AB1000F795EF /* LAWExcelTool.m in Sources */,
+				9A0B7DBA21F1AB1100F795EF /* pwd2key.c in Sources */,
+				9A0B7DB621F1AB1100F795EF /* aescrypt.c in Sources */,
+				9A0B7D9D21F1AB1000F795EF /* XlsReader.cpp in Sources */,
+				9A0B7DB321F1AB1100F795EF /* SSZipArchive.m in Sources */,
+				9A0B7DBF21F1AB1100F795EF /* CSVParser.m in Sources */,
+				9A0B7DA021F1AB1000F795EF /* xls.c in Sources */,
+				9A0B7D9C21F1AB1000F795EF /* main11.cpp in Sources */,
+				9A0B7D2F21F1AAFE00F795EF /* ViewController.swift in Sources */,
+				9A0B7D9E21F1AB1000F795EF /* DHxlsReaderIOS.m in Sources */,
+				9A0B7DAD21F1AB1000F795EF /* ZBaseParser.m in Sources */,
+				9A0B7DB521F1AB1100F795EF /* hmac.c in Sources */,
+				9A0B7DBD21F1AB1100F795EF /* CHCSVParserOptions.swift in Sources */,
+				9A0B7DAC21F1AB1000F795EF /* ZWorkbookParser.m in Sources */,
+				9A0B7DA921F1AB1000F795EF /* ZSheet.m in Sources */,
+				9A0B7DBC21F1AB1100F795EF /* entropy.c in Sources */,
+				9A0B7DB221F1AB1100F795EF /* mztools.c in Sources */,
+				9A0B7DA821F1AB1000F795EF /* ZXLSXParser.m in Sources */,
+				9A0B7DB921F1AB1100F795EF /* prng.c in Sources */,
+				9A0B7D2D21F1AAFE00F795EF /* AppDelegate.swift in Sources */,
+				9A0B7DA421F1AB1000F795EF /* getopt.c in Sources */,
+				9A0B7DBE21F1AB1100F795EF /* CHCSVParser.m in Sources */,
+				9A0B7DAF21F1AB1000F795EF /* unzip.c in Sources */,
+				9A0B7DA221F1AB1000F795EF /* ole.c in Sources */,
+				9A0B7DB721F1AB1100F795EF /* fileenc.c in Sources */,
+				9A0B7DAA21F1AB1000F795EF /* ZSheetCol.m in Sources */,
+				9A0B7DA621F1AB1000F795EF /* ZXLSXParsers注解.m in Sources */,
+				9A0B7DAE21F1AB1000F795EF /* ZContentParser.m in Sources */,
+				9A0B7DA321F1AB1000F795EF /* xls2csv.c in Sources */,
+				9A0B7DBB21F1AB1100F795EF /* aestab.c in Sources */,
+				9A0B7DB121F1AB1000F795EF /* ioapi.c in Sources */,
+				9A0B7DB021F1AB1000F795EF /* zip.c in Sources */,
+				9A0B7DAB21F1AB1000F795EF /* ZContent.m in Sources */,
+				9A0B7DA721F1AB1000F795EF /* ZSheetParser.m in Sources */,
+				9A0B7DB421F1AB1100F795EF /* aeskey.c in Sources */,
+				9A0B7D9F21F1AB1000F795EF /* DHcell.m in Sources */,
+				9A0B7DA121F1AB1000F795EF /* xlstool.c in Sources */,
+				9A0B7DB821F1AB1100F795EF /* sha1.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9A0B7D3221F1AAFF00F795EF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9A0B7D3321F1AAFF00F795EF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9A0B7D3721F1AAFF00F795EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9A0B7D3821F1AAFF00F795EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		9A0B7D3A21F1AAFF00F795EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = HSBLocalizable/HSBLocalizable.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = BK837NU3RF;
+				INFOPLIST_FILE = HSBLocalizable/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.heshaobo.HSBLocalizable;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/HSBLocalizable/HSBLocalizable_Briding_Header.h";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Debug;
+		};
+		9A0B7D3B21F1AAFF00F795EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = HSBLocalizable/HSBLocalizable.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = BK837NU3RF;
+				INFOPLIST_FILE = HSBLocalizable/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.heshaobo.HSBLocalizable;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/HSBLocalizable/HSBLocalizable_Briding_Header.h";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9A0B7D2421F1AAFE00F795EF /* Build configuration list for PBXProject "HSBLocalizable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A0B7D3721F1AAFF00F795EF /* Debug */,
+				9A0B7D3821F1AAFF00F795EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A0B7D3921F1AAFF00F795EF /* Build configuration list for PBXNativeTarget "HSBLocalizable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A0B7D3A21F1AAFF00F795EF /* Debug */,
+				9A0B7D3B21F1AAFF00F795EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9A0B7D2121F1AAFE00F795EF /* Project object */;
+}
