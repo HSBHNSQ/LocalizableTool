@@ -133,7 +133,7 @@ class ViewController: NSViewController , LAWExcelParserDelegate{
             //第4步： 创建string文件
             var stringFilePath:[String] = []
             for folder in folderPaths {
-                let path = folder + "/Localizable.string"
+                let path = folder + "/Localizable.strings"
                 stringFilePath.append(path)
             }
             
